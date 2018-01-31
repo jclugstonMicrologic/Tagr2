@@ -1,0 +1,23 @@
+
+
+
+#ifndef APPLICATION_OSTIMER_H
+#define APPLICATION_OSTIMER_H
+
+
+typedef enum
+{
+    TIMER_FAULT_LED =0,
+    TIMER_ALIVE_LED,
+    TIMER_PROGRESS_LED, 
+    TIMER_LED_TEST,
+    TIMER_FAIL_LED,
+       
+    TIMER_PTC_MSG,
+    
+    TIMER_LAST
+	
+}TIMERS;
+
+#endif
+
