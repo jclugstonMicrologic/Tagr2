@@ -10,7 +10,7 @@
 //
 //  Ver | dd mmm yyyy | Who  | Description of changes
 // =====|=============|======|===============================================
-//  000 | 15 OCT 2012 | JDC  | Original version 
+//  000 | 31 JAN 2018 | JDC  | Original version 
 //###########################################################################
 
 #ifndef APPLICATION_GPIO_H

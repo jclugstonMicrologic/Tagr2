@@ -74,7 +74,8 @@ void InitTargetHardware()
 #ifndef DEBUG
     NVIC_SetVectorTable(NVIC_VectTab_FLASH, 0x08008000);
 #endif
-    
+
+//#define USB_FS_ENABLE       
 #ifdef USB_FS_ENABLE    
     /* Init Host Library */    
     USBH_Init(&USB_OTG_Core, USB_OTG_FS_CORE_ID, &USB_Host, &USBH_MSC_cb, &USR_Callbacks);     
@@ -94,6 +95,9 @@ void InitTargetHardware()
     InitDigitalIn();
 
     InitExtSensors();
+    
+    InitSDCard();
+    
 #ifndef DEBUG    
     InitWatchDog();
 #endif

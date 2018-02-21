@@ -20,6 +20,7 @@
 #include "ApplicationOsTimer.h"
 
 #include "AppExternalSensors.h"
+#include "AppSDCard.h"
 
 #include "usbh_core.h"
 #include "usbh_usr.h"
